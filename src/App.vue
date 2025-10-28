@@ -1,20 +1,23 @@
 <template>
   <div>
-    <ComicsComponent/>
+    <SumaCheckbox/>
   </div>
 </template>
 
 <script>
 //import PadreDeporte from './components/PadreDeporte.vue'
 //import PadreNumeros from './components/PadreNumeros.vue';
-import ComicsComponent from './components/ComicsComponent.vue';
+//import ComicsComponent from './components/ComicsComponent.vue';
+//import SeleccionMultiple from './components/SeleccionMultiple.vue';
+import SumaCheckbox from './components/SumaCheckbox.vue';
 
 export default {
   name: 'App',
   components: {
     //PadreDeporte,
     //PadreNumeros,
-    ComicsComponent
+    //ComicsComponent,
+    SumaCheckbox
   }
 }
 </script>
