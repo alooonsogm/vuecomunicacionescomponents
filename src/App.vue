@@ -1,6 +1,8 @@
 <template>
   <div>
-    <SumaCheckbox/>
+    <MenuTablaMultiplicar/>
+    <MenuComponent/>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -9,7 +11,9 @@
 //import PadreNumeros from './components/PadreNumeros.vue';
 //import ComicsComponent from './components/ComicsComponent.vue';
 //import SeleccionMultiple from './components/SeleccionMultiple.vue';
-import SumaCheckbox from './components/SumaCheckbox.vue';
+//import SumaCheckbox from './components/SumaCheckbox.vue';
+import MenuComponent from './components/MenuComponent.vue';
+import MenuTablaMultiplicar from './components/MenuTablaMultiplicar.vue';
 
 export default {
   name: 'App',
@@ -17,7 +21,9 @@ export default {
     //PadreDeporte,
     //PadreNumeros,
     //ComicsComponent,
-    SumaCheckbox
+    //SumaCheckbox,
+    MenuComponent,
+    MenuTablaMultiplicar
   }
 }
 </script>
